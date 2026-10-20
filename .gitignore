@@ -1,0 +1,129 @@
+# ============================================================
+# .gitignore — Repositori Skripsi Final (fase_1)
+# ============================================================
+
+# ============================================================
+# 1. DATASET & AUDIO (Ukuran besar, tidak di-push ke GitHub)
+# ============================================================
+Folder_dataset/
+Suara_untuk_validasi/
+skripsi_residual_modulasi/data/
+skripsi_residual_modulasi/scratch/
+**/scratch/
+temp_uploads/
+**/temp_uploads/
+
+# Ekstensi file audio & video
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.m4a
+*.aac
+*.wma
+*.opus
+*.raw
+*.mp4
+*.avi
+*.mkv
+
+# ============================================================
+# 2. MODEL WEIGHTS & CHECKPOINTS (Melebihi limit 100MB GitHub)
+# Catatan: Bobot model (.joblib) ukuran total ~500MB (B3: 166MB, E4d: 230MB)
+# Simpan di Google Drive / GitHub Releases
+# ============================================================
+checkpoints/
+**/checkpoints/
+web_cek/model/
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.h5
+*.keras
+*.onnx
+
+# ============================================================
+# 3. INTERMEDIATE EXTRACTION & LARGE CSV DUMPS
+# features_train.csv (230MB), features_test/validation (~50MB)
+# ============================================================
+**/features_*.csv
+features_*.csv
+dataset_recap_raw.csv
+utterance_scores.csv
+skripsi_residual_modulasi/manifests/
+
+# ============================================================
+# 4. ARCHIVES, INSPECTION LOGS & DUMPS
+# ============================================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.inspect.ndjson
+*.ndjson
+
+# ============================================================
+# 5. NODE.JS & DEPENDENCIES
+# ============================================================
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================================
+# 6. PYTHON ENVIRONMENT & CACHES
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ============================================================
+# 7. JUPYTER NOTEBOOK CACHES
+# ============================================================
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ============================================================
+# 8. CREDENTIALS & SENSITIVE FILES
+# ============================================================
+kaggle.json
+.kaggle/
+*.pem
+*.key
+.env
+.env.*
+
+# ============================================================
+# 9. IDE & OS TEMPORARY
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ============================================================
+# 10. LOGS & TEMPORARY FILES
+# ============================================================
+*.log
+*.tmp
+*.bak
+logs/
+**/logs/

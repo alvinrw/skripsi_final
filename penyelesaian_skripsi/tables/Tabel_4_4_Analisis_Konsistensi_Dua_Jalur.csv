@@ -1,0 +1,2 @@
+split,n_utterances,baseline_col,evidence_col,baseline_threshold,evidence_threshold,spearman_rho,spearman_p,cohen_kappa,consistent_correct,baseline_only_correct,evidence_only_correct,both_wrong,pct_consistent_correct,pct_both_wrong
+test,8337,score_B2,score_E4c,0.5,0.5,0.67114,0.0,0.5648,4884,573,1216,1664,58.58,19.96

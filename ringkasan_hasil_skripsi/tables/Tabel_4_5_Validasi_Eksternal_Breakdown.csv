@@ -1,0 +1,7 @@
+category,ground_truth,total_files,accuracy_calibrated_E4a,accuracy_calibrated_E4a_pct
+E2TTS_Base,fake,34,0.8823529411764706,88.24%
+F5TTS_Base,fake,34,0.8235294117647058,82.35%
+Laki_laki,real,72,0.4583333333333333,45.83%
+Open_voice,fake,34,0.9117647058823528,91.18%
+VoxCPM,fake,34,0.7352941176470589,73.53%
+perempuan,real,64,0.359375,35.94%

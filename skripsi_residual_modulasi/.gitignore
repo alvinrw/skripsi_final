@@ -1,0 +1,61 @@
+# ============================================================
+# .gitignore — Skripsi Residual Modulasi Speech Deepfake
+# ============================================================
+
+# === DATA (ukuran besar, jangan di-commit) ===
+data/
+scratch/
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.m4a
+*.aac
+*.tar.gz
+*.zip
+
+# === HASIL EKSPERIMEN & MODEL (reproducible dari pipeline, file besar) ===
+results/
+checkpoints/
+manifests/
+*.joblib
+*.pt
+*.pth
+
+# === ENVIRONMENT PYTHON ===
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# === JUPYTER NOTEBOOK ===
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# === IDE & EDITOR ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# === KAGGLE CREDENTIALS (JANGAN di-commit!) ===
+kaggle.json
+.kaggle/
+
+# === LOG & TEMPORARY ===
+*.log
+*.tmp
+*.bak
+logs/
+
+# === FIGURES (akan di-generate ulang) ===
+# figures/   ← uncomment bila ingin exclude gambar juga

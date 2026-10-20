@@ -1,0 +1,5 @@
+Split Set,Real Chunks,Fake Chunks,Total,Rasio
+Train (Pelatihan),19451,19452,38903,50:50
+Validation (Validasi),4168,4168,8336,50:50
+Test (Pengujian Internal),4169,4168,8337,50:50
+Validasi Eksternal (272 Audio),136,136,272,50:50

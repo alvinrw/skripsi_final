@@ -1,0 +1,18 @@
+Speaker,Gender,File Real,File Fake,Total File,Akurasi E4a,Akurasi B2,Akurasi B3,Akurasi B4,Akurasi E4d
+Alyak,Perempuan,8,8,16,50.0%,68.8%,68.8%,87.5%,43.8%
+Diqqy,Laki-laki,8,8,16,62.5%,56.2%,43.8%,43.8%,87.5%
+Erpan,Laki-laki,8,8,16,81.2%,62.5%,50.0%,62.5%,56.2%
+Farhan,Laki-laki,8,8,16,56.2%,56.2%,43.8%,75.0%,37.5%
+Furqon,Laki-laki,8,8,16,56.2%,43.8%,50.0%,43.8%,31.2%
+Haikal,Laki-laki,8,8,16,62.5%,50.0%,50.0%,50.0%,31.2%
+Ilham,Laki-laki,8,8,16,62.5%,62.5%,62.5%,62.5%,31.2%
+Ivang,Laki-laki,8,8,16,62.5%,62.5%,62.5%,81.2%,75.0%
+KakZiyyan,Perempuan,8,8,16,75.0%,81.2%,87.5%,81.2%,68.8%
+Selvi,Perempuan,8,8,16,56.2%,75.0%,37.5%,43.8%,56.2%
+Sheindy,Perempuan,8,8,16,62.5%,68.8%,50.0%,62.5%,56.2%
+Wina,Perempuan,8,8,16,56.2%,62.5%,62.5%,75.0%,56.2%
+abe,Laki-laki,8,8,16,37.5%,75.0%,56.2%,62.5%,62.5%
+fawwas,Laki-laki,8,8,16,68.8%,50.0%,43.8%,87.5%,56.2%
+mama,Perempuan,8,8,16,75.0%,68.8%,50.0%,68.8%,75.0%
+nida,Perempuan,8,8,16,75.0%,75.0%,75.0%,75.0%,75.0%
+yasmin,Perempuan,8,8,16,62.5%,87.5%,87.5%,87.5%,75.0%
