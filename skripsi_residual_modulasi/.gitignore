@@ -16,7 +16,8 @@ scratch/
 
 # === HASIL EKSPERIMEN & MODEL (reproducible dari pipeline, file besar) ===
 results/
-checkpoints/
+checkpoints/*
+!checkpoints/README.md
 manifests/
 *.joblib
 *.pt

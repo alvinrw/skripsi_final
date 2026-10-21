@@ -31,10 +31,12 @@ temp_uploads/
 # 2. MODEL WEIGHTS & CHECKPOINTS (Melebihi limit 100MB GitHub)
 # Catatan: Bobot model (.joblib) ukuran total ~500MB (B3: 166MB, E4d: 230MB)
 # Simpan di Google Drive / GitHub Releases
-# ============================================================
-checkpoints/
-**/checkpoints/
-web_cek/model/
+checkpoints/*
+!checkpoints/README.md
+skripsi_residual_modulasi/checkpoints/*
+!skripsi_residual_modulasi/checkpoints/README.md
+web_cek/model/*
+!web_cek/model/README.md
 *.joblib
 *.pt
 *.pth
