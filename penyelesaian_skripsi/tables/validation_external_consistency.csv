@@ -1,0 +1,8 @@
+Metric / Category,Value,Percentage,Interpretation
+Spearman Correlation (rho),0.2210,-,Korelasi peringkat probabilitas B2 vs E4e (p=2.39e-04)
+Cohen Kappa (kappa),0.1466,-,Tingkat kesepakatan keputusan biner B2 vs E4e
+1. Kedua Model Benar (Both Correct),125,45.96%,Konsistensi tinggi pada sampel mudah
+2. Kedua Model Salah (Both Wrong),46,16.91%,Sampel sulit bagi domain spektral dan fisik
+3. Hanya Baseline B2 Benar,52,19.12%,Tertolong fitur spektral MFCC+LFCC
+4. Hanya Forensik E4e Benar (Rescued by Forensic),49,18.01%,Cacat fisik eksitasi glottal/modulasi mengoreksi error B2
+Total Gabungan (Setidaknya 1 Benar),226,83.09%,Cakupan ensemble komplementer dua jalur
